@@ -1,5 +1,5 @@
-export interface Book {
-  id: number;
+interface Book {
+  id: string;
   title: string;
   author: string;
   genre: string;
@@ -9,7 +9,10 @@ export interface Book {
   description: string;
   coverColor: string;
   coverUrl: string;
-  isLoan?: boolean; // Make this optional
+  videoUrl: string;
+  summary: string;
+  createdAt: Date | null;
+  isLoanedBook?: boolean;
 }
 
 interface AuthCredentials {

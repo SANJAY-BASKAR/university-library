@@ -1,5 +1,5 @@
 import React from "react";
-import { Book } from "@/types";
+// import { Book } from "@/types";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 // prop declaratino using types.d.ts
